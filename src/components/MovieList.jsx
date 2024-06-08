@@ -1,4 +1,5 @@
-
+// ES6/ESM/module project import syntax
+import MovieCard from "./MovieCard.jsx";
 
 let favouriteMovies = [
     "Aliens",
@@ -21,7 +22,7 @@ export default function Movielist(){
     return (
     <section>
         {favouriteMovies.map((movie, index) => {
-            return <MovieCard key={index} elephant={movie}/>
+            return <MovieCard key={movie + "-" + index} elephant={movie}/>
         })}
     </section>
 

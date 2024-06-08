@@ -1,3 +1,4 @@
+import Movielist from '../components/MovieList';
 import '../stylesheets/App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <h1>Favourite Movies</h1>
 
      {/* <Movielist /> */}
+     <Movielist />
 
      {/* */}
 
