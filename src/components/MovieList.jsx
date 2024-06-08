@@ -22,6 +22,19 @@ export default function Movielist(){
     return (
     <section>
         {favouriteMovies.map((movie, index) => {
+
+            // if (movie && movie.length === 0){
+
+            // }
+
+            // if (movie.length !== 0){
+            //     return <MovieCard key={movie + "-" + index} elephant={movie}/>
+            // }
+
+            if (movie.length === 0){
+                return null;
+            }
+
             return <MovieCard key={movie + "-" + index} elephant={movie}/>
         })}
     </section>
