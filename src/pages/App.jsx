@@ -1,4 +1,4 @@
-import Movielist from '../components/MovieList';
+//import Movielist from '../components/MovieList';
 import '../stylesheets/App.css';
 
 function App(props) {
